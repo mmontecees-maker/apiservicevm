@@ -1,0 +1,7 @@
+/home/user/apiservicevm/api.service.vm.presentation/obj/Debug/net9.0/api.service.vm.presentation.csproj.AssemblyReference.cache
+/home/user/apiservicevm/api.service.vm.presentation/obj/Debug/net9.0/api.service.vm.presentation.GeneratedMSBuildEditorConfig.editorconfig
+/home/user/apiservicevm/api.service.vm.presentation/obj/Debug/net9.0/api.service.vm.presentation.AssemblyInfoInputs.cache
+/home/user/apiservicevm/api.service.vm.presentation/obj/Debug/net9.0/api.service.vm.presentation.AssemblyInfo.cs
+/home/user/apiservicevm/api.service.vm.presentation/obj/Debug/net9.0/api.service.vm.presentation.csproj.CoreCompileInputs.cache
+/home/user/apiservicevm/api.service.vm.presentation/obj/Debug/net9.0/api.service.vm.presentation.MvcApplicationPartsAssemblyInfo.cs
+/home/user/apiservicevm/api.service.vm.presentation/obj/Debug/net9.0/api.service.vm.presentation.MvcApplicationPartsAssemblyInfo.cache

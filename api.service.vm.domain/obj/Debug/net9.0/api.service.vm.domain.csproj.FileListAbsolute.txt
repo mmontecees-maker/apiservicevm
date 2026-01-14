@@ -1,0 +1,12 @@
+/home/user/apiservicevm/api.service.vm.domain/bin/Debug/net9.0/api.service.vm.domain.deps.json
+/home/user/apiservicevm/api.service.vm.domain/bin/Debug/net9.0/api.service.vm.domain.dll
+/home/user/apiservicevm/api.service.vm.domain/bin/Debug/net9.0/api.service.vm.domain.pdb
+/home/user/apiservicevm/api.service.vm.domain/obj/Debug/net9.0/api.service.vm.domain.csproj.AssemblyReference.cache
+/home/user/apiservicevm/api.service.vm.domain/obj/Debug/net9.0/api.service.vm.domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/user/apiservicevm/api.service.vm.domain/obj/Debug/net9.0/api.service.vm.domain.AssemblyInfoInputs.cache
+/home/user/apiservicevm/api.service.vm.domain/obj/Debug/net9.0/api.service.vm.domain.AssemblyInfo.cs
+/home/user/apiservicevm/api.service.vm.domain/obj/Debug/net9.0/api.service.vm.domain.csproj.CoreCompileInputs.cache
+/home/user/apiservicevm/api.service.vm.domain/obj/Debug/net9.0/api.service.vm.domain.dll
+/home/user/apiservicevm/api.service.vm.domain/obj/Debug/net9.0/refint/api.service.vm.domain.dll
+/home/user/apiservicevm/api.service.vm.domain/obj/Debug/net9.0/api.service.vm.domain.pdb
+/home/user/apiservicevm/api.service.vm.domain/obj/Debug/net9.0/ref/api.service.vm.domain.dll

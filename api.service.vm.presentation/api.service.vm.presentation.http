@@ -1,0 +1,6 @@
+@api.service.vm.presentation_HostAddress = http://localhost:5136
+
+GET {{api.service.vm.presentation_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
