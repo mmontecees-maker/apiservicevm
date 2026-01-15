@@ -1,8 +1,7 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
     <ProjectReference Include="..\api.service.vm.domain\api.service.vm.domain.csproj" />
-    <ProjectReference Include="..\api.service.vm.infrastructure\api.service.vm.infrastructure.csproj" />
   </ItemGroup>
 
   <ItemGroup>

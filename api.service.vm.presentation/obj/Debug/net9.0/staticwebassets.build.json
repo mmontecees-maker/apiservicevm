@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "rrzfNzMhpMgx+N7objwkKQHjEfcDAq8aH/o3wpAtOfo=",
+  "Source": "api.service.vm.presentation",
+  "BasePath": "_content/api.service.vm.presentation",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

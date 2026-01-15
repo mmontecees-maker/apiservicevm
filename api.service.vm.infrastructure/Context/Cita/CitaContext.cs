@@ -1,8 +1,9 @@
+using api.service.vm.application.interfaces;
 using api.service.vm.domain.clases;
 using api.service.vm.infrastructure.repositories;
 using Microsoft.EntityFrameworkCore;
 
-namespace api.service.vm.infrastructure.context.cita;
+namespace api.service.vm.infrastructure.Context;
 
 public class CitaContext : ContextGeneral<Cita>, ICitaContext
 {

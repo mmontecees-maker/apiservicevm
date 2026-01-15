@@ -28,9 +28,6 @@
             "projectReferences": {
               "/home/user/apiservicevm/api.service.vm.domain/api.service.vm.domain.csproj": {
                 "projectPath": "/home/user/apiservicevm/api.service.vm.domain/api.service.vm.domain.csproj"
-              },
-              "/home/user/apiservicevm/api.service.vm.infrastructure/api.service.vm.infrastructure.csproj": {
-                "projectPath": "/home/user/apiservicevm/api.service.vm.infrastructure/api.service.vm.infrastructure.csproj"
               }
             }
           }
@@ -50,6 +47,12 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Riok.Mapperly": {
+              "target": "Package",
+              "version": "[4.3.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -157,6 +160,9 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
+              "/home/user/apiservicevm/api.service.vm.application/api.service.vm.application.csproj": {
+                "projectPath": "/home/user/apiservicevm/api.service.vm.application/api.service.vm.application.csproj"
+              },
               "/home/user/apiservicevm/api.service.vm.domain/api.service.vm.domain.csproj": {
                 "projectPath": "/home/user/apiservicevm/api.service.vm.domain/api.service.vm.domain.csproj"
               }
@@ -179,11 +185,15 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.11, )"
+              "version": "[9.0.0, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
@@ -262,7 +272,7 @@
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
-              "version": "[10.0.1, )"
+              "version": "[9.0.0-preview.3.24172.13, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -280,7 +290,7 @@
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[10.1.0, )"
+              "version": "[6.5.0, )"
             }
           },
           "imports": [

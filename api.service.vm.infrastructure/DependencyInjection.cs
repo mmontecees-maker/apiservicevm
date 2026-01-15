@@ -1,10 +1,5 @@
-using api.service.vm.domain.interfaces;
-using api.service.vm.infrastructure.context.cita;
-using api.service.vm.infrastructure.context.cliente;
-using api.service.vm.infrastructure.context.detallecita;
-using api.service.vm.infrastructure.context.empleado;
-using api.service.vm.infrastructure.context.pago;
-using api.service.vm.infrastructure.context.servicio;
+using api.service.vm.application.interfaces;
+using api.service.vm.infrastructure.Context;
 using api.service.vm.infrastructure.repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;

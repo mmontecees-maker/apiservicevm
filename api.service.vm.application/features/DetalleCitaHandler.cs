@@ -1,7 +1,7 @@
 using api.service.vm.application.commons.dtos;
 using api.service.vm.application.commons.mappings;
 using api.service.vm.application.ifeatures;
-using api.service.vm.infrastructure.context.detallecita;
+using api.service.vm.application.interfaces;
 using api.service.vm.domain.clases;
 
 namespace api.service.vm.application.features;

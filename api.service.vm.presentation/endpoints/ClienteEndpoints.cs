@@ -11,28 +11,28 @@ public static class ClienteEndpoints
         var group = routes.MapGroup("/api/clientes").WithTags("Clientes");
 
         // Obtener todos los clientes
-        group.MapGet("/", async (IContextGeneral<Cliente> repo) =>
+        group.MapGet("/", async ([FromServices] IContextGeneral<Cliente> repo) =>
         {
             var clientes = await repo.GetAll();
             return Results.Ok(clientes);
         });
 
         // Obtener cliente por ID
-        group.MapGet("/{id}", async (int id, IContextGeneral<Cliente> repo) =>
+        group.MapGet("/{id}", async (int id, [FromServices] IContextGeneral<Cliente> repo) =>
         {
             var cliente = await repo.GetById(id);
             return cliente is not null ? Results.Ok(cliente) : Results.NotFound();
         });
 
         // Crear un nuevo cliente
-        group.MapPost("/", async ([FromBody] Cliente cliente, IContextGeneral<Cliente> repo) =>
+        group.MapPost("/", async ([FromBody] Cliente cliente, [FromServices] IContextGeneral<Cliente> repo) =>
         {
             var nuevoCliente = await repo.Add(cliente);
             return Results.Created($"/api/clientes/{nuevoCliente.IdCliente}", nuevoCliente);
         });
 
         // Actualizar cliente
-        group.MapPut("/{id}", async (int id, [FromBody] Cliente cliente, IContextGeneral<Cliente> repo) =>
+        group.MapPut("/{id}", async (int id, [FromBody] Cliente cliente, [FromServices] IContextGeneral<Cliente> repo) =>
         {
             var existente = await repo.GetById(id);
             if (existente is null) return Results.NotFound();
@@ -42,7 +42,7 @@ public static class ClienteEndpoints
         });
 
         // Eliminar cliente
-        group.MapDelete("/{id}", async (int id, IContextGeneral<Cliente> repo) =>
+        group.MapDelete("/{id}", async (int id, [FromServices] IContextGeneral<Cliente> repo) =>
         {
             var cliente = await repo.GetById(id);
             if (cliente is null) return Results.NotFound();

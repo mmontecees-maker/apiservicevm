@@ -1,0 +1,12 @@
+using api.service.vm.domain.clases;
+
+namespace api.service.vm.application.interfaces;
+
+public interface IPagoContext : IContextGeneral<Pago>
+{
+    Task<List<Pago>> GetAllAsync();
+    Task<Pago?> GetByIdAsync(int id);
+    Task<Pago> InsertAsync(Pago pago);
+    Task<(bool, string?)> UpdateAsync(Pago pago);
+    Task<(bool, string?)> Delete(int id, bool softDelete);
+}

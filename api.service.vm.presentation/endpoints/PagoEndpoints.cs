@@ -10,10 +10,10 @@ public static class PagoEndpoints
     {
         var group = routes.MapGroup("/api/pagos").WithTags("Pagos");
 
-        group.MapGet("/", async (IContextGeneral<Pago> repo) => 
+        group.MapGet("/", async ([FromServices] IContextGeneral<Pago> repo) => 
             Results.Ok(await repo.GetAll()));
 
-        group.MapPost("/", async ([FromBody] Pago pago, IContextGeneral<Pago> repo) =>
+        group.MapPost("/", async ([FromBody] Pago pago, [FromServices] IContextGeneral<Pago> repo) =>
         {
             var nuevo = await repo.Add(pago);
             return Results.Created($"/api/pagos/{nuevo.IdPago}", nuevo);

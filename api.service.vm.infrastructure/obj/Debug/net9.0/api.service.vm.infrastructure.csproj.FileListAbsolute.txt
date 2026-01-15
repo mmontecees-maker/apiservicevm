@@ -15,3 +15,6 @@
 /home/user/apiservicevm/api.service.vm.infrastructure/obj/Debug/net9.0/api.service.vm.infrastructure.pdb
 /home/user/apiservicevm/api.service.vm.infrastructure/obj/Debug/net9.0/api.service.vm.infrastructure.genruntimeconfig.cache
 /home/user/apiservicevm/api.service.vm.infrastructure/obj/Debug/net9.0/ref/api.service.vm.infrastructure.dll
+/home/user/apiservicevm/api.service.vm.infrastructure/obj/Debug/net9.0/api.service.vm.infrastructure.sourcelink.json
+/home/user/apiservicevm/api.service.vm.infrastructure/bin/Debug/net9.0/api.service.vm.application.dll
+/home/user/apiservicevm/api.service.vm.infrastructure/bin/Debug/net9.0/api.service.vm.application.pdb

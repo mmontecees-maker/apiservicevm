@@ -10,10 +10,10 @@ public static class DetalleCitaEndpoints
     {
         var group = routes.MapGroup("/api/detalles-cita").WithTags("Detalles de Cita");
 
-        group.MapGet("/", async (IContextGeneral<DetalleCita> repo) => 
+        group.MapGet("/", async ([FromServices] IContextGeneral<DetalleCita> repo) => 
             Results.Ok(await repo.GetAll()));
 
-        group.MapPost("/", async ([FromBody] DetalleCita detalle, IContextGeneral<DetalleCita> repo) =>
+        group.MapPost("/", async ([FromBody] DetalleCita detalle, [FromServices] IContextGeneral<DetalleCita> repo) =>
         {
             var nuevo = await repo.Add(detalle);
             return Results.Created($"/api/detalles-cita/{nuevo.IdDetalle}", nuevo);

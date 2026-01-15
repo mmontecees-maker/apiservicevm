@@ -10,3 +10,4 @@
 /home/user/apiservicevm/api.service.vm.domain/obj/Debug/net9.0/refint/api.service.vm.domain.dll
 /home/user/apiservicevm/api.service.vm.domain/obj/Debug/net9.0/api.service.vm.domain.pdb
 /home/user/apiservicevm/api.service.vm.domain/obj/Debug/net9.0/ref/api.service.vm.domain.dll
+/home/user/apiservicevm/api.service.vm.domain/obj/Debug/net9.0/api.service.vm.domain.sourcelink.json
